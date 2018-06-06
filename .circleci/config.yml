@@ -28,7 +28,7 @@ jobs:
             - node_modules
       - run: npm test
       - store_test_results:
-        path: coverage
+          path: coverage
 
 
   semantic_release:
